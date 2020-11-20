@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 //menampilkan halaman login 
 Route::get('/', function () {
-         return view('login');
+    return view('login');
 });
 
 //menampilkan halaman dashbord
@@ -19,14 +19,14 @@ Route::get('hasil', 'EmokuController@hasil');
 
 //halaman input monitoring
 
-    //mencari jadwal sesuai kelas
-    Route::get('kelas', 'EmokuController@kelas');
+//mencari jadwal sesuai kelas
+Route::get('kelas', 'EmokuController@kelas');
 
-    //melakukan pencarian
-    Route::get('cari', 'EmokuController@cari');
+//melakukan pencarian
+Route::get('cari', 'EmokuController@cari');
 
-    //input kehadiran
-     Route::get('input', 'EmokuController@store');
+//input kehadiran
+Route::post('input', 'EmokuController@store');
 
 //menampilkan halaman input monitoring
 //Route::get('input', function () {
