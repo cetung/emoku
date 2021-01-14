@@ -10,20 +10,16 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr class="table-info">
-                                <th>Id Guru</th>
-                                <th>Nama</th>
-                                <th>Detail</th>
+                                <th style="text-align:center">Id Guru</th>
+                                <th style="text-align:center">Nama</th>
+                                
                             </tr>
                         </thead>
                         @foreach($gurus as $guru)
                         <tr>
                             <td>{{ $guru->guru_id}}</td>
                             <td>{{ $guru->guru_nama }}</td>
-                            <td>
-                                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#detail">
-                                    Detail
-                                </button>
-                            </td>
+                           
                         </tr>
                         @endforeach
 

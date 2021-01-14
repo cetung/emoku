@@ -20,17 +20,17 @@
 
   </head>
 
-  <body class="bg-dark">
+  <body>
     <div class="container">
         <div id="content-wrapper">
         <div class="container-fluid">
          
         <center>
         <div class="col-sm-6">
-        <div class="card card-login mx-auto mt-5">
-        <div class="card-header">
+        <div class="card card-login mx-auto mt-5 ">
+        <div class="card-header bg-light">
         <img src="vendor/img/smk.png" width="80" height="80" alt="" loading="lazy">
-            <br> E - Monitoring Kehadiran Guru
+            <br> <h5>E - Monitoring Kehadiran Guru
             <br> SMK Negeri 1 Wonosobo
         </div>
         <div class="card-body ">

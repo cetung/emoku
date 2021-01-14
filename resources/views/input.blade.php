@@ -59,8 +59,8 @@
                             <td>
                                 <select class="custom-select" name="kehadiran_{{$i}}" required>
                                     <option selected disabled>KEHADIRAN</option>
-                                    <option value="0">Hadir</option>
-                                    <option value="1">Kosong</option>
+                                    <option value='0'>Hadir</option>
+                                    <option value='1'>Kosong</option>
                                 </select>
                             </td>
 

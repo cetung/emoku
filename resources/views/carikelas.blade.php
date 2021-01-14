@@ -33,10 +33,11 @@
                                 </select>
                             </div>
 
-                            <div class="col-md-3 mb-4">
+                            <div class="col-md-3 mb-5">
                             <div class="col-md-3 mb-4">   
                             </div>
                             <button type="submit" class="btn btn-info" name="cari">Cari</button>
+                            </div>
                         </div>
                         
                     </form>
